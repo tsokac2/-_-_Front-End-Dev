@@ -1,8 +1,9 @@
 <h1 align="center">Git Push - Git Clone</h1>
 
 ### Connect and Create new repo
-```
 Create a new repository on the command line
+```
+
 echo "# Repo Name" >> README.md
 git init
 git add README.md
