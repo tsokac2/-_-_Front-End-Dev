@@ -138,9 +138,21 @@ A machine readable description of how a web service can be interacted with.
 * External styling reduces the amount of styling you need to add directly to your webpage.
 * External style sheets make changing multiple sections with the same styles faster and easier.
 
-### 32. 
+### 32. You make an API call to a receiving server with a request to update a record. The response you receive simply says "OK". when you check the record it is not updated. What are possible reasons the record isn't updated, despite the "OK" response.
+* The call was made asynchronously.
+* All necessary fields were not provided
 
+### 33. In HTML, what is the purposes of the ``<a>`` tag?
+* It denotes a link to something else.
+* It signifies an anchored part of a webpage.
 
+### 34. You are trying to determine when a variable is equal to a particular value. When the variable is equal, print out the variable, when it is not, skip to next line of code. Which concepts could serve as a programmatic soulution?
+* While Loop
+* IF Statement
+
+### 35. What are the benefits of a relational database schema, select all that apply.
+* Allows for data normalization
+* Helps to remove some redundant data.
 
 
 
