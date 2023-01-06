@@ -133,6 +133,13 @@ A machine readable description of how a web service can be interacted with.
 
 **POST** data to an endpoint.
 
+### 31. What are the benefits of an external style sheet over in-line styling?
+* External styling can make your webpage code easier to read
+* External styling reduces the amount of styling you need to add directly to your webpage.
+* External style sheets make changing multiple sections with the same styles faster and easier.
+
+### 32. 
+
 
 
 
