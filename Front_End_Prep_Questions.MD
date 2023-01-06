@@ -114,9 +114,29 @@ SELECT * FROM Customers
 WHERE CustomerName LIKE 'a%';
 ```
 
-
 ### 26. If you are creating a hyperlink in HTMl, which tag would you use to do so and what is the key element to define the link?
 ``<a href>``
+
+### 27. Which SQL functions allows you to display a column header in a result set with a different name than the one actually stored in the table?
+RENAME
+
+### 28. What is a WSDL?
+A machine readable description of how a web service can be interacted with.
+
+**Web Services Description Language (WSDL)** is a standard specification for describing networked, XML-based services.
+
+### 29. Which is the correct HTML tag for the larget heading?
+``<h1>``
+
+### 30. What is the below REST API call likely attempting to do?
+``POST https://www.somesite.com/somecode``
+
+**POST** data to an endpoint.
+
+
+
+
+
 
 
 
