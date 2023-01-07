@@ -111,3 +111,75 @@ Clientside
 
 ### 25. How do you install/use jQuery in a project? What is the minimum setup needed to start using jQuery?
 script tag - linked to a jQuery CDN or locally hosted file.
+
+### 26. How do you select all elements with the class of ``.selected`` in jQuery?
+``$('.selected');``
+
+### 27. Can jQuery be used to make an AJAX Request?
+Yes
+
+### 28. What is the difference between ``Require()`` and ``Include()`` when an error is encountered?
+``include()`` will raise a warning if it fails, ``require()`` will raise a fatal error.
+
+### 29. What is the current major version of Bootstrap?
+v5.0 is the latest version - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+
+### 30. What CSS class do you use to span 12 columns on medium-sized screens but only 6 columns on large screens in the latest version of Bootstrap?
+``class="col-md-12 col-lg-6"``
+
+### 31. Name 3 available jQuery plugins that Bootstrap has in their Query Plugin Library.
+Modal, Carousel, Tooltip, Dropdown, Alert, Collapse
+
+### 32. What minimum things do you have to do to include Bootstrap and Bootstrap JS in a project HTML Document?
+Add ``bootstrap.css/bootstrap.js`` link and script in the head of the HTML document.
+
+**NOTE** If ``bootstrap.js`` script is included in the footer (better for page loading)
+
+### 33. What is the difference between ``xhtml``, ``html4`` and ``html5``. Which do you use typically?
+**XHTML** was the cleaner and stricter version of HTML4.
+
+**HTML5** is the latest, smartest, and fastest version of HTML.
+
+### 34. Does HTML need a compiler?
+**HTML**, **CSS**, and **JS** are browsers-interpreted technologies.
+Whereas ``asp.net``, ``java`` and ``PHP`` are not interpreted.
+
+They need a compiler that can convert their code into machine language.
+That's why HTML, CSS, and JavaScript are also called front-end technologies.
+
+### 35. What is Semantic HTML?
+HTML5 introduced semantic tags like ``header``, ``nav``, ``article``, ``section``, ``aside``, ``footer`` and ``figcaption``.
+
+These tags convey the containing content.
+Whereas in html4, the div tag was used to create partitions using descriptive classes.
+
+### 34. Which is the best HTML debugging tool?
+We use **Chrome**, **Firefox**, and **Firebug Devtools** as they are browser inbuilt.
+
+But W3C Validation is the best HTML Debugging tool.
+
+### 35. How to use HTML5 new tag in IE8 and lesser?
+HTML5 semantic tags like ``header``, ``nav``, ``article``, ``section``, ``aside``, ``footer`` and ``figcaption`` are not supported in HTML4 based browser like IE8 and lesser.
+
+We can use ``html5shiv.js`` to run these elements in older browsers.
+[html5shiv CDN](https://cdnjs.com/libraries/html5shiv)
+
+### 36. What is web accessibility?
+Web accessibility means a web for differently-abled or disabled people.
+HTML5 introduced WAI-ARIA so that even disabled people can interact, understand, and navigate a website.
+[WAI-ARIA](https://www.w3.org/TR/wai-aria-1.2/)
+
+### 37. Difference between ``<b>`` and ``<strong>`` tag?
+``<b>`` is a presentational element used to give bolder look to the text.
+
+Whereas ``<strong>`` gives bolder look and strong importance in search results.
+
+### 38. Difference between ``<i>`` and ``<em>`` tag?
+``<i>`` is a presentational element used to give italic look to the text.
+
+Whereas ``<em>`` gives an italic look and importance in search results.
+
+### 39. What do you mean by a Responsive Website?
+The website is responsive when it looks good in all screen resolutions and device types.
+
+To re-arrange the element's width and to display/hide any elements on the webpage, we can use CSS media queries.
