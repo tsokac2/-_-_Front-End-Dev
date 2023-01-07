@@ -183,3 +183,6 @@ Whereas ``<em>`` gives an italic look and importance in search results.
 The website is responsive when it looks good in all screen resolutions and device types.
 
 To re-arrange the element's width and to display/hide any elements on the webpage, we can use CSS media queries.
+
+### 40. What are the most used tools to debug any page that has issues?
+The tools like W3c validator, Chrome Dev, and Firebug are the most commonly used debugging tools.
