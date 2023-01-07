@@ -55,7 +55,9 @@ Yes
 ### 13. What are 2(shorthand) boolean operators supported by JavaScript?
 
 **OR** - `` || ``
+
 **AND** - `` && ``
+
 **NO equal to** - ``!= ``
 
 ### 14. what is the difference between "==" and "==="?
